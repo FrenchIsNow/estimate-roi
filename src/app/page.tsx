@@ -1,9 +1,12 @@
 import ScenarioExplorer from "@/components/ScenarioExplorer";
+import Gatekeeper from "@/components/Gatekeeper";
 
 export default function Home() {
   return (
     <main>
-      <ScenarioExplorer />
+      <Gatekeeper>
+        <ScenarioExplorer />
+      </Gatekeeper>
     </main>
   );
 }
